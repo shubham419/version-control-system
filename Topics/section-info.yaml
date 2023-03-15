@@ -2,3 +2,6 @@ content:
 - Map
 - Standard output
 - Arrays
+- Floating-point types
+- String arrays
+- The main() function
