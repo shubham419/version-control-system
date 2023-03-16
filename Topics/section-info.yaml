@@ -5,3 +5,5 @@ content:
 - Floating-point types
 - String arrays
 - The main() function
+- Functions as objects
+- Lambda expressions
