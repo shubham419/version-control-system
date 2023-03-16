@@ -106,6 +106,16 @@ files:
 
     }
   learner_created: false
-feedback_link: https://hyperskill.org/projects/177/stages/909/implement#comment
-status: Unchecked
+feedback_link: https://hyperskill.org/learn/step/13042#comment
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #1
+
+    Your program should output &quot;Add a file to the index.&quot;,
+    but printed: &quot;&#39;add&#39; is not a SVCS command.
+    &quot;
+
+    Arguments: add
+  time: "Thu, 16 Mar 2023 03:44:22 UTC"
 record: -1
