@@ -6,7 +6,7 @@ val characters = charArrayOf('K', 't', 'l') // It stores 3 elements of the Char 
 println(characters.joinToString()) // K, t, l
 
 val doubles = doubleArrayOf(1.25, 0.17, 0.4) // It stores 3 elements of the Double type
-println(doubles.joinToString()) // 1.15, 0.17, 0.4</code></pre><p>This code snippet above prints three arrays:</p><pre><code class="language-kotlin">1, 2, 3, 4, 5
+println(doubles.joinToString()) // 1.25, 0.17, 0.4</code></pre><p>This code snippet above prints three arrays:</p><pre><code class="language-kotlin">1, 2, 3, 4, 5
 K, t, l
 1.25, 0.17, 0.4</code></pre><p>The <code class="language-kotlin">joinToString()</code> function converts an array into a string.</p><p>When you initialize an array (or anything else) with a sequence of arguments, you can add a trailing comma. It can be useful if you want to add or change some values:</p><pre><code class="language-kotlin">val array = intArrayOf(1, 2, 3, 4,) // works since Kotlin 1.4</code></pre><h5 id="creating-an-array-of-a-specified-size">Creating an array of a specified size</h5><p>To create an array of a certain size, we need to write its type and pass it after the type name in round brackets (<strong>the constructor</strong>):</p><pre><code class="language-kotlin">val numbers = IntArray(5) // an array of 5 integer numbers
 println(numbers.joinToString())
